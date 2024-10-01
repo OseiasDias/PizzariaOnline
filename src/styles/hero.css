@@ -1,0 +1,93 @@
+.h2-text {
+  font-size: 3.6em;
+  font-weight: 700;
+}
+
+@media (max-width:768px){
+  .h2-text {
+    font-size: 3em;
+  }
+
+  .marTop {
+    
+    margin-top: 35px !important;
+  }
+}
+
+.marTop {
+  bottom: 0;
+  position: relative;
+  margin-top: 70px;
+}
+
+.spanEspecial {
+  margin-top: 50px !important;
+  display: inline-block;
+}
+
+.btnInicio {
+  border-radius: 45px;
+  background-color: var(--temaVermelho);
+  color: #fff !important;
+  border: none;
+  border: 2px solid var(--temaVermelho);
+  transition: all 300ms ease-in;
+}
+
+.btnInicio:hover {
+  background-color: #00000000 !important;
+  border: 2px solid var(--temaVermelho) !important;
+  color: var(--temaVermelho) !important;
+  transform: scale(1.1);
+}
+
+.btnZ {
+  box-shadow: var(--shadow);
+  display: block;
+  border-radius: 20px;
+  width: 220px;
+
+  margin: auto !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnZ:hover {
+  border: 2px solid var(--temaVermelho);
+}
+
+.pizza1 {
+  box-shadow: var(--shadow);
+  width: 210px;
+  padding: 6px;
+  background-color: #fff;
+  
+  border-radius: 0.5em;
+  float: right !important;
+  position:relative;
+  text-align: right; /* Alinha o texto à direita dentro do elemento */
+  transition: all 300ms ease-in-out;
+}
+
+.pizza1:hover{
+  transform: scale(1.1);
+} 
+
+.pizza1 img {
+  border-radius: 0.5em;
+}
+.iconePhone {
+  background-color: rgb(59, 208, 59);
+  font-size: 2em;
+  padding: 7px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+
+.mostrarpiza{
+  top: -130px;
+  position: relative;
+}

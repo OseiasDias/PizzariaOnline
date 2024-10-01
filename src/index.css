@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --temaVermelho:#f54748;
+  --temaBlack: #2e2e2e;
+  --laranja: #fdecec;
+  --shadow: -4px 12px 20px -2px rgba(0, 0, 0, 0.19);
+  --cor-Fundo: linear-gradient(180deg, rgba(255, 237, 237, 0.85) 0%, rgba(255, 255, 255, 0) 30rem) !important;
+  --cartBack: rgba(255, 255, 255, 0.38);
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--cor-Fundo) !important;
+}
+html::-webkit-scrollbar {
+  background-color: var(--laranja);
+  width: 10px;
+  transition: all 300ms ease-in;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--temaVermelho);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #2e2e2e;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  background: var(--cor-Fundo);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--temaVermelho);
+  background: linear-gradient(
+    1ded,
+    rgba(255, 237, 237, 0.85) 0% rgba(255, 255, 255, 14rem)
+  );
+}
+.footer h5 {
+  color: #000;
+}
+.icones-socias:hover {
+  color: #2e2e2e;
+}
+.icones-socias {
+  text-align: center !important;
+}
+.logotipo a {
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .logoBottom {
+    bottom: -18px !important;
+    position: relative;
+  }
+}
+
+#btnQtd {
+  background-color: #00000000;
+  border: var(--temaVermelho) solid 2px;
+  border-radius: 20px;
+  color: var(--temaVermelho);
+  padding: 5px 15px;
+  transition: all ease-in 300ms;
+  margin: 0 8px;
+}
+
+#btnQtd:hover {
+  background-color: var(--temaVermelho) !important;
+  color: #fff !important;
+}
+
+.nomePizza {
+  font-weight: 700;
+  font-size: 2.3em;
+}
+
+.paragrafoEspecial {
+  color: #000000b9;
+  text-align: justify;
+}
+
+.preco {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.tamanhoPizza span {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.descCompleta {
+  border-radius: 40px;
+  overflow: hidden;
+  transition: all 300ms ease-in !important;
+}
+
+.descCompleta:hover > img {
+  transition: all 300ms ease-in !important;
+  transform: scale(1.1);
+}
+
+.qtdL {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#btnQtd {
+  margin: 8px;
+}
+.outConfigure {
+  background-color: var(--temaVermelho);
+  color: #fff;
+}
+
+.outConfigure:hover {
+  color: var(--temaVermelho) !important;
+  background-color: #00000000 !important;
+  transform: scale(1.1);
+}
+
+.tiraLink {
+  text-decoration: none !important;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .qtd {
+    margin-bottom: 15px;
+  }
+}
+
+.divConcluir {
+  background-color: #f54748 !important;
+  color: #fff;
+  padding: 10px 15px !important;
+  text-align: center;
+  width: 250px;
+  border-radius: 30px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.fundoEE {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 100% !important;
+  z-index: 98;
+  position: absolute;
+  height: 100% !important;
+  overflow: hidden !important;
+  top: 0px;
+}
+
+
+
+.bodyTable tr {
+  transition: all 300ms ease-in;
+}
+.bodyTable tr:hover {
+  transform: scale(1.05);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bodyTable tr td:hover {
+  color: #f54748;
+}
+
+.terminar {
+  background-color: var(--temaVermelho);
+  color: #ffff;
+  border: 2px solid var(--temaVermelho) !important;
+  transition: all ease-in 300ms;
+  margin-right: -2px;
+}
+
+@media (max-width: 390px) {
+  .espaco {
+    overflow-x: scroll !important;
+  }
+}
+.terminar:hover {
+  color: var(--temaVermelho) !important;
+}
+
+.tiraDecoracao {
+  text-decoration: none;
+}
+.arranjoLi {
+  text-decoration: none;
+}
+
+.itens-Li {
+  color: #2e2e2e !important;
+}
+.bg-fundo{
+    padding-top: 10px;
+}
+
+.bg-fundo ul{
+    list-style: none;
+    left: -30px;
+    position: relative;
+}
+
+.bg-fundo ul li{
+    margin: 10px 0 ;
+}
+
+.bg-fundo{
+    border: 1 solid var(--temaVermelho) !important;
+}
+
+.bg-fundo button[type="submit"]{
+    border: none;
+    background-color: var(--temaVermelho);
+    padding: 7px 30px;
+    border: 2px solid var(--temaVermelho);
+    color: #fff;
+    transition: all 300ms ease-in-out;
+    border-radius: 20px;
+    display: block;
+    float: right !important;
+    position: relative;
+}
+
+.bg-fundo button[type="submit"]:hover{
+    background-color: #00000000;
+    color: var(--temaVermelho) !important;
+    transform: scale(1.09);
+}
+
+
+@media (max-width:768px){
+    .bg-fundo{
+        padding-top: 0;
+    }
+    
+}
+
+.form-control:checked{
+    box-shadow: #f54748 !important;
+}
+
+@media (max-width:768px){
+    .bg-menu{
+        box-shadow: var(--shadow);
+    }
+}
+
+.bp{
+    text-decoration: none;
+    color: #000;
+}
+
+.bg-cover{
+  background: var(--cor-Fundo) ,url("./assets/pizzas/p2.webp");
+}
+
+.bg-c{
+  background: var(--cor-Fundo); }
